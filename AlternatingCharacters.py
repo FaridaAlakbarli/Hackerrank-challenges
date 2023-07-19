@@ -20,7 +20,7 @@ def alternatingCharacters(s):
         lis.append(s[-1])
 
 
-    return lis
+    return len(s) - len(lis)
 
 if __name__ == '__main__':
 
